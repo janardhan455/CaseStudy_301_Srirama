@@ -54,10 +54,9 @@ rtUpload (
 )
 }
 
-	  stage('SonarQube Code Check')
-    {
-        withSonarQubeEnv('SonarQubeServer') {
-                sh 'mvn clean package sonar:sonar'
+  stage('SonarQube Code Check') {
+  	withSonarQubeEnv('SonarQubeServer') {
+        	sh 'mvn clean package sonar:sonar'
         }
     }
 	 
