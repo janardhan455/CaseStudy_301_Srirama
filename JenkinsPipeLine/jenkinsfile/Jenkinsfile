@@ -77,7 +77,7 @@ rtUpload (
 
  }
 	} catch (err) {
-     emailext body: "${err}", subject: 'Pipeline Failed!!', to: 'janardhan455@gmail.com'
+     emailext body: "${err}", subject: 'Pipeline Failed!!', to: 'nihi.konakalla@gmail.com'
 	 }
  
 }
