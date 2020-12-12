@@ -1,7 +1,7 @@
 node {
  try {
  
- emailext body: 'Pipeline QA test!!', subject: 'Pipeline Job is triggered', to: 'janardhan455@gmail.com'
+ emailext body: 'Pipeline QA test!!', subject: 'Pipeline Job is triggered', to: 'nihi.konakalla@gmail.com'
  
  stage('Git CheckOut') {
     git branch: 'main', url: 'https://github.com/janardhan455/CaseStudy_301_Srirama.git'
